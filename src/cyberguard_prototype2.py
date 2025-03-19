@@ -5,6 +5,7 @@
 
 import openai
 import requests
+import requests
 
 # Replace with your keys
 openai.api_key = "your-openai-api-key-here"
@@ -41,6 +42,23 @@ def analyze_text(text, wallet_info=""):
         max_tokens=200
     )
     return response.choices[0].message["content"]
+
+def check_wallet(wallet):
+    url = f"https://blockchain.info/rawaddr/{wallet}"
+    try:
+        data = requests.get(url).json()
+        txs = data["n_tx"]  # Number of transactions
+        return f"Wallet {wallet} has {txs} transactions."
+    except:
+        return "Couldn’t check wallet—try later."
+
+# Update main loop:
+print("CyberGuard says:", result)
+if "wallet" in user_input.lower():
+    wallet = input("Enter wallet address: ")
+    wallet_info = check_wallet(wallet)
+    print("Wallet Check:", wallet_info)
+
 
 # Main loop
 print("CyberGuard Prototype v2: Enter text or a wallet address (type 'quit' to stop):")
