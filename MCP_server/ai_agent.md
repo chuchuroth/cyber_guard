@@ -1,3 +1,8 @@
+- **useful Link**:  
+*https://docs.cursor.com/context/model-context-protocol*   # MCP cursor
+*https://openai.github.io/openai-agents-python/*    # openAI agent SDK
+
+
 Let me explain the **OpenAI Agents SDK** from the link `https://platform.openai.com/docs/guides/agents-sdk` in simple, everyday terms—what it does and how you can use it.
 
 ---
