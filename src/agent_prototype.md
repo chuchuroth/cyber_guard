@@ -159,7 +159,7 @@ What do you think—ready to try this, or want to tweak the scenario? Let me kno
 
 ---
 
-Awesome! Let’s build the first prototype of “CyberGuard,” your AI Police Assistant, designed to detect unusual or illegal online activities—like scams—and issue pre-warnings while gathering investigation leads. We’ll start small and simple, focusing on analyzing text (e.g., fake social media posts) using OpenAI’s API, since real-time X API access has costs and setup hurdles. This prototype will run on your computer, test scam detection, and show how it could assist police. I’ll guide you step-by-step in plain language, and we’ll use your scam experience to make it practical.
+Let's build another prototype of “CyberGuard,” your AI Police Assistant, designed to detect unusual or illegal online activities—like scams—and issue pre-warnings while gathering investigation leads. We’ll start small and simple, focusing on analyzing text (e.g., fake social media posts) using OpenAI’s API, since real-time X API access has costs and setup hurdles. This prototype will run on your computer, test scam detection, and show how it could assist police. I’ll guide you step-by-step in plain language, and we’ll use your scam experience to make it practical.
 
 ---
 
