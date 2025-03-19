@@ -1,5 +1,5 @@
 - **useful Link**:  
-*https://docs.cursor.com/context/model-context-protocol*   # MCP cursor
+*https://docs.cursor.com/context/model-context-protocol*   # MCP cursor <br>
 *https://openai.github.io/openai-agents-python/*    # openAI agent SDK
 
 
